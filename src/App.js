@@ -9,6 +9,8 @@ import Useeffect from './pages/Useeffect';
 import Props from './pages/Props';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
+import Svg from './pages/Svg';
+import ImplementasiApi from './pages/ImplementasiApi';
 // pemanggilan menggunakan export tanpa default
 // import {Materi} from './Materi';
 
@@ -33,7 +35,9 @@ const App = () => {
         {/* {isShow && <Useeffect />} */}
         {/* <Props /> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        {/* <Svg /> */}
+        <ImplementasiApi />
       </ScrollView>
     </View>
   );

@@ -1,3 +1,8 @@
 npx react-native init "namaProject" // membuat project baru react
-yarn android // menjalankan aplikasi react 
-yarn add react-native-screens react-native-safe-area-context //untuk membuat navigasi pada react native
+yarn android // menjalankan aplikasi react
+yarn add react-native-screens react-native-safe-area-context //untuk membuat navigasi pada react native 
+"connect-emulator": "adb connect 127.0.0.1:21503", // add to script bracket in package.json
+"devices": "adb devices"  // add to script bracket in package.json
+install react navigation untuk navigasi
+install react-svg dan react-native-svg-transformer untuk menggunakan svg
+install react vision camera untuk menggunakan camera

@@ -1,5 +1,5 @@
-import React, { Component, useEffect, useState} from 'react';
-import { StyleSheet, Text, View, Image, ScrollView} from 'react-native';
+import React, {Component, useEffect, useState} from 'react';
+import {StyleSheet, Text, View, Image, ScrollView} from 'react-native';
 
 const Story = props => {
   return (
@@ -8,12 +8,12 @@ const Story = props => {
       <Text>{props.title} </Text>
     </View>
   );
-}
+};
 
 export default function Useeffect() {
   return (
     <ScrollView horizontal>
-      <View style={{ flexDirection: 'row'}}>
+      <View style={{flexDirection: 'row'}}>
         <Story
           link="https://placeimg.com/100/100/tech"
           title="swjsdkdskajdkasaljd1"
